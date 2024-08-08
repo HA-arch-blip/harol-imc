@@ -1,0 +1,185 @@
+
+### Manual Técnico y de Usuario
+
+---
+
+## Manual Técnico
+
+### 1. Introducción
+**Objetivo del Manual:**
+Este manual proporciona instrucciones detalladas para la instalación, configuración, operación y mantenimiento del sistema de cálculo de BMI (Índice de Masa Corporal) basado en una aplicación de Tkinter en Python.
+
+**Audiencia del Manual:**
+Este manual está dirigido a desarrolladores y técnicos encargados de la instalación y mantenimiento de la aplicación.
+
+### 2. Descripción del Sistema
+**Descripción General del Producto:**
+La aplicación calcula el BMI del usuario y muestra el resultado en diferentes ventanas. Utiliza la biblioteca Tkinter para la interfaz gráfica y PIL para la manipulación de imágenes.
+
+**Arquitectura del Sistema:**
+- Lenguaje: Python
+- Bibliotecas: Tkinter, PIL (Pillow)
+
+**Especificaciones Técnicas:**
+- Python 3.7 o superior
+- Tkinter
+- Pillow
+
+### 3. Instalación
+**Requisitos Previos:**
+- Sistema operativo: Windows 10 o superior.
+- Python instalado (3.7 o superior).
+- Bibliotecas de Python: Tkinter y Pillow (PIL).
+
+**Pasos de Instalación:**
+1. Descargar e instalar Python desde [python.org](https://www.python.org/).
+2. Instalar Pillow utilizando pip:
+   ```sh
+   pip install pillow
+   ```
+
+### 4. Configuración
+**Configuración Detallada:**
+Asegurarse de que las rutas de las imágenes sean correctas en el código. Las imágenes deben estar en los directorios especificados en el código.
+
+### 5. Operación
+**Descripción de Funciones y Operaciones del Sistema:**
+- La aplicación permite calcular el BMI del usuario basado en el peso y la altura proporcionados.
+- Muestra el resultado en una nueva ventana con una imagen de fondo.
+- Incluye botones para abrir nuevas ventanas con información adicional.
+
+### 6. Mantenimiento
+**Mantenimiento Preventivo y Correctivo:**
+- Verificar que las bibliotecas necesarias estén actualizadas.
+- Asegurarse de que las rutas de las imágenes sean accesibles y correctas.
+
+**Procedimientos de Diagnóstico y Solución de Problemas:**
+- Si hay un error de archivo no encontrado, verificar las rutas de las imágenes.
+- Si la aplicación no arranca, revisar que las bibliotecas Tkinter y Pillow estén instaladas correctamente.
+
+### 7. Actualizaciones y Parches
+**Procedimiento para Actualizar el Sistema:**
+- Descargar la última versión del código fuente.
+- Reemplazar los archivos existentes con la nueva versión.
+- Verificar la compatibilidad de las rutas de las imágenes.
+
+### 8. Seguridad
+**Prácticas Recomendadas de Seguridad:**
+- Asegurar que los archivos de la aplicación no sean accesibles públicamente.
+- Mantener las bibliotecas y el sistema operativo actualizados.
+
+### 9. Respaldo y Recuperación
+**Procedimientos para Respaldo de Datos:**
+- Hacer copias de seguridad periódicas del código fuente y las imágenes utilizadas.
+
+**Procedimientos de Recuperación ante Fallos:**
+- Restaurar los archivos desde la copia de seguridad.
+- Verificar la integridad del sistema después de la restauración.
+
+### 10. Apéndices
+**Diagramas y Esquemas:**
+No aplicable.
+
+**Glosario de Términos Técnicos:**
+- BMI: Índice de Masa Corporal.
+- Tkinter: Biblioteca de Python para crear interfaces gráficas.
+- PIL (Pillow): Biblioteca de Python para la manipulación de imágenes.
+
+**Referencias y Documentación Adicional:**
+- [Documentación de Tkinter](https://docs.python.org/3/library/tkinter.html)
+- [Documentación de Pillow](https://pillow.readthedocs.io/en/stable/)
+
+---
+
+## Manual de Usuario
+
+### 1. Introducción
+**Propósito del Manual:**
+Este manual está diseñado para ayudar a los usuarios a utilizar la aplicación de cálculo de BMI.
+
+**Audiencia del Manual:**
+Este manual está dirigido a cualquier persona que desee calcular su BMI utilizando esta aplicación.
+
+### 2. Descripción del Producto
+**Descripción General del Producto y sus Beneficios:**
+La aplicación permite a los usuarios calcular su BMI ingresando su peso y altura. Proporciona una interfaz fácil de usar con botones interactivos y ventanas adicionales con información relevante.
+
+**Componentes Principales del Producto:**
+- Ventana principal con un botón para iniciar el cálculo de BMI.
+- Ventana secundaria para ingresar los datos del usuario.
+- Ventana de resultados que muestra el BMI calculado y su estado correspondiente.
+
+### 3. Instalación y Configuración Inicial
+**Guía Paso a Paso para la Instalación:**
+1. Descargar la aplicación desde el sitio web proporcionado.
+2. Asegurarse de que Python y las bibliotecas necesarias estén instalados.
+3. Ejecutar el archivo Python (.py) para iniciar la aplicación.
+
+### 4. Navegación
+**Descripción de la Interfaz de Usuario:**
+- La ventana principal contiene un botón para abrir la ventana de ingreso de datos.
+- La ventana de ingreso de datos permite al usuario ingresar su nombre, edad, peso y altura.
+- La ventana de resultados muestra el BMI calculado y su estado.
+
+### 5. Funcionalidades y Uso
+**Uso Detallado de las Principales Funciones y Características:**
+1. **Iniciar la Aplicación:**
+   - Ejecutar el archivo Python para abrir la ventana principal.
+2. **Ingresar Datos:**
+   - Hacer clic en el botón de la ventana principal para abrir la ventana de ingreso de datos.
+   - Ingresar nombre, edad, peso y altura en los campos correspondientes.
+3. **Calcular BMI:**
+   - Hacer clic en el botón de calcular para ver el resultado en una nueva ventana.
+4. **Ver Información Adicional:**
+   - Hacer clic en el botón de información adicional para abrir una tercera ventana con más detalles.
+
+### 6. Solución de Problemas Comunes
+**Preguntas Frecuentes (FAQs):**
+- **Error de archivo no encontrado:** Verificar que las rutas de las imágenes sean correctas.
+- **La aplicación no responde:** Asegurarse de que todas las dependencias estén instaladas correctamente.
+
+### 7. Mantenimiento Básico
+**Tareas de Mantenimiento que Puede Realizar el Usuario:**
+- Verificar que las imágenes utilizadas estén en las rutas correctas.
+- Actualizar las bibliotecas de Python según sea necesario.
+
+**Consejos para el Cuidado del Producto:**
+- Mantener una copia de seguridad del código fuente.
+- No mover o eliminar las imágenes utilizadas por la aplicación.
+
+### 8. Actualizaciones
+**Cómo Actualizar el Software o Firmware del Producto:**
+- Descargar la última versión del código desde el sitio web oficial.
+- Reemplazar los archivos existentes con la nueva versión.
+
+**Importancia de las Actualizaciones:**
+- Las actualizaciones pueden incluir mejoras de rendimiento, nuevas características y correcciones de errores.
+
+### 9. Contacto y Soporte Técnico
+**Información de Contacto para Soporte Técnico:**
+- Correo electrónico: soporte@empresa.com
+- Teléfono: +52 123 456 7890
+- Sitio web: [www.empresa.com](http://www.empresa.com)
+
+**Recursos Adicionales:**
+- Foros de soporte en el sitio web oficial.
+- Documentación en línea y tutoriales.
+
+### 10. Apéndices
+**Glosario de Términos:**
+- BMI: Índice de Masa Corporal.
+- Tkinter: Biblioteca de Python para crear interfaces gráficas.
+- PIL (Pillow): Biblioteca de Python para la manipulación de imágenes.
+
+**Índice Alfabético:**
+- BMI: 2
+- Tkinter: 2
+- Pillow: 2
+
+**Referencias Adicionales:**
+- [Documentación de Tkinter](https://docs.python.org/3/library/tkinter.html)
+- [Documentación de Pillow](https://pillow.readthedocs.io/en/stable/)
+
+---
+
+Este manual técnico y de usuario debe proporcionar toda la información necesaria para instalar, utilizar y mantener la aplicación de cálculo de BMI. Si necesitas más detalles o información adicional, no dudes en pedirlo.
